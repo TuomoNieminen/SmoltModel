@@ -1,0 +1,94 @@
+h2 {
+  color: #47749A;
+  font-size: 500%;
+  font-family: "Lucida console";
+  font-weight: bold;
+  text-shadow: 1px 1px #A2C8CD;
+  padding: 40px;
+}
+
+h3 {
+  color: #47749A;
+  font-size: 150%;
+  font-family: "Lucida console";
+  font-weight: bold;
+  padding: 10px;
+}
+
+h5 {
+    font-weight: lighter;
+  font-size: 125%;
+  font-family: Tahoma;
+}
+
+.smolt{
+  background-color: #F5FDFF;
+  border-radius: 3%;
+}
+
+.welcome-container {
+  max-width: 850px;
+}
+
+.intro {
+  padding: 20px 20px 0px 20px;
+  border-radius: 3%;
+}
+.intro #intro {
+  background-color: #FAFEFF;
+  font-family: "Palatino Linotype";
+}
+
+#modelpic {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    padding: 20px;
+}
+
+
+.numeric-widget {
+  height: 90px;
+}
+.slidet-widget {
+  height: 80px;
+}
+
+.priors {
+background-color: #F9F8FC;
+padding: 10px;
+border-radius: 1%;
+
+}
+
+.form.group {
+  margin-bottom: 5px;
+}
+
+label {
+  font-weight: 100;
+  margin-bottom: 2px;
+}
+
+#run {
+  height: 2.7em;
+  width: 4em;
+  font-size: 1.2em;
+}
+
+#about {
+  padding: 50px;
+}
+
+.progress-striped .bar {
+      background-color: #149bdf;
+      background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.6)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.6)), color-stop(0.75, rgba(255, 255, 255, 0.6)), color-stop(0.75, transparent), to(transparent));
+      background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent);
+      background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent);
+      background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent);
+      background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.6) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 255, 255, 0.6) 75%, transparent 75%, transparent);
+      -webkit-background-size: 40px 40px;
+         -moz-background-size: 40px 40px;
+           -o-background-size: 40px 40px;
+              background-size: 40px 40px;
+    }
