@@ -37,9 +37,9 @@ tabsetPanel(
                   p("In the 'Projections' page you can observe the expected 
                    numbers of daily smolts and catches using the 
                    priors you have chosen."),
-                  p("In the 'MCMC' page you can run the model 
+                  p("[DEPRECATED] In the 'MCMC' page you can run the model 
                     and observe some simple diagnostics results."),
-                  p("In the 'Results' page are the main results 
+                  p("[DEPRECATED] In the 'Results' page are the main results 
                     and some plots of interesting posterior distributions."),
                   p("Have fun!")
                  )),
@@ -132,8 +132,11 @@ tabsetPanel(
              
              ) 
            ),
+
+# mcmc
   tabPanel("MCMC",
            br(),
+           p("DEPRECATED"),
            fluidRow(
              column(4,
                     sliderInput("thin", 
@@ -183,8 +186,10 @@ tabsetPanel(
            plotOutput("traces", height = 800)
            ),
 
+# Results
     tabPanel("Results",
              br(),
+             p("DEPRECATED"),
              textOutput("results"),
              plotOutput("posterior.N"),
              plotOutput("posterior.n"),

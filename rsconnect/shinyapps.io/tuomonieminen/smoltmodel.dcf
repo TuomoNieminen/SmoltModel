@@ -1,0 +1,10 @@
+name: smoltmodel
+title:
+username:
+account: tuomonieminen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 247389
+bundleId: 1128880
+url: https://tuomonieminen.shinyapps.io/smoltmodel/
+when: 1513030549.58759

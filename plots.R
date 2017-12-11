@@ -49,32 +49,32 @@ output$expect.x<-renderPlot({
 })
 
 # Results
-
-output$traces <- renderPlot({
-  plot(mc.object(), density = FALSE)
-})
-
-output$posterior.N<-renderPlot({
-  plot(density(posterior.N()$sample),
-       col = "coral2",
-       main = "Posterior density of the total (N)",
-       yaxt='n',
-       xlab = "Smolts")
-})
-output$posterior.n<-renderPlot({
-  plot(1:nrow(data),posterior.n(),
-       type="h",
-       col = "steelblue4",
-       main="Posterior of migrating smolts",
-       ylab = "Smolts",
-       xlab = "Day")
-})
-output$posterior.q<-renderPlot({
-  plot(1:nrow(data),posterior.q(), 
-       type = "h",
-       main = "Posterior catchability modelled with logistic regression",
-       ylab = "Catchability",
-       xlab = "day",
-       ylim = c(0,0.5))
-  
-})
+# 
+# output$traces <- renderPlot({
+#   plot(mc.object(), density = FALSE)
+# })
+# 
+# output$posterior.N<-renderPlot({
+#   plot(density(posterior.N()$sample),
+#        col = "coral2",
+#        main = "Posterior density of the total (N)",
+#        yaxt='n',
+#        xlab = "Smolts")
+# })
+# output$posterior.n<-renderPlot({
+#   plot(1:nrow(data),posterior.n(),
+#        type="h",
+#        col = "steelblue4",
+#        main="Posterior of migrating smolts",
+#        ylab = "Smolts",
+#        xlab = "Day")
+# })
+# output$posterior.q<-renderPlot({
+#   plot(1:nrow(data),posterior.q(), 
+#        type = "h",
+#        main = "Posterior catchability modelled with logistic regression",
+#        ylab = "Catchability",
+#        xlab = "day",
+#        ylim = c(0,0.5))
+#   
+# })
